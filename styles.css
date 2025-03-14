@@ -117,3 +117,32 @@ body.dark-mode h2 {
     transform: scale(1.2);
     filter: brightness(1.2);
 }
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333;
+    --link-color: #007bff;
+}
+
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --link-color: #1E90FF;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+    color: var(--link-color);
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
