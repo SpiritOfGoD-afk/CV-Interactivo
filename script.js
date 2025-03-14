@@ -9,3 +9,17 @@ window.onload = function () {
         document.body.classList.add("dark-mode");
     }
 };
+
+window.onload = function () {
+    // Restaurar modo oscuro si estaba activado
+    if (localStorage.getItem("dark-mode") === "true") {
+        document.body.classList.add("dark-mode");
+    }
+
+    // Animar barras de progreso
+    const progressBars = document.querySelectorAll(".progress");
+    progressBars.forEach(bar => {
+        const progressValue = bar.getAttribute("data-progress");
+        bar.style.width = progressValue + "%";
+    });
+};
