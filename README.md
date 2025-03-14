@@ -1,6 +1,3 @@
-Aquí tienes un resumen para colocar en el README:  
-
----
 
 # **Currículum Vitae Interactivo**  
 
