@@ -31,12 +31,3 @@ themeToggle.addEventListener("click", () => {
     body.classList.toggle("dark-mode");
     themeToggle.textContent = body.classList.contains("dark-mode") ? "☀️" : "🌙";
 });
-
-document.addEventListener("DOMContentLoaded", () => {
-    const progressBars = document.querySelectorAll(".progress");
-    
-    progressBars.forEach(bar => {
-        const percent = bar.getAttribute("data-percent");
-        bar.style.width = percent + "%";
-    });
-});

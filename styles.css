@@ -173,30 +173,3 @@ a {
     border-radius: 5px;
     transition: width 1s ease-in-out;
 }
-
-#skills {
-    margin-top: 20px;
-}
-
-.skill {
-    margin-bottom: 10px;
-}
-
-.progress-bar {
-    width: 100%;
-    background-color: #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.progress {
-    width: 0;
-    height: 20px;
-    background-color: var(--link-color);
-    text-align: right;
-    line-height: 20px;
-    color: white;
-    padding-right: 5px;
-    border-radius: 5px;
-    transition: width 1s ease-in-out;
-}
