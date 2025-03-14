@@ -20,3 +20,4 @@ Este es un **CV interactivo** desarrollado con **HTML, CSS y JavaScript**, que i
 ## **Cómo visualizar el CV**  
 1. Clonar este repositorio.  
 2. Abrir `index.html` en un navegador.
+3. Link a GitHub Pages: https://spiritofgod-afk.github.io/CV-Interactivo/
