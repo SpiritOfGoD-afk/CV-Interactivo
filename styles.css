@@ -95,3 +95,25 @@ body.dark-mode h2 {
     background-color: #0073e6;
     transition: width 1.5s ease-in-out;
 }
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social {
+    font-size: 30px;
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.linkedin { color: #0A66C2; }
+.twitter { color: #1DA1F2; }
+.github { color: #333; }
+
+.social:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
