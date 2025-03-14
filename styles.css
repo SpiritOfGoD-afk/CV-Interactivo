@@ -43,3 +43,35 @@ ul {
 ul li {
     margin-bottom: 5px;
 }
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+}
+
+body.dark-mode header {
+    background: #444;
+}
+
+body.dark-mode section {
+    background: #333;
+    color: white;
+}
+
+body.dark-mode h2 {
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+}
+
+.toggle-dark-mode {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
