@@ -136,3 +136,33 @@ header h1, header h2 {
     opacity: 1;
     max-height: 500px; /* Ajusta según la cantidad de contenido */
 }
+
+.gif-footer {
+    display: block;
+    margin: 40px auto; /* Centrado con margen */
+    width: 150px; /* Ajusta el tamaño según necesites */
+    height: auto;
+}
+
+body {
+    background-image: url('img/animacion.gif');
+    background-size: cover; /* Ajusta el tamaño para cubrir toda la pantalla */
+    background-position: center;
+    background-repeat: no-repeat; /* No repetir el GIF */
+    background-attachment: fixed; /* Para que el fondo no se mueva con el scroll */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content {
+    animation: fadeIn 1s ease-out;
+}
